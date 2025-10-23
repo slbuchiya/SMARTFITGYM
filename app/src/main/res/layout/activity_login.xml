@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="@drawable/bg_gradient">
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:inputType="text"
+        android:backgroundTint="#FFFFFF"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#CCCCCC"
+        android:drawableStart="@android:drawable/ic_menu_myplaces"
+        android:drawableTint="#FFFFFF"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:backgroundTint="#FFFFFF"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#CCCCCC"
+        android:drawableStart="@android:drawable/ic_lock_idle_lock"
+        android:drawableTint="#FFFFFF"
+        android:padding="12dp"
+        android:layout_marginBottom="24dp"/>
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#2196F3"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/tvSignup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Don't have an account? Sign up"
+        android:textColor="#FF9800"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:clickable="true"
+        android:focusable="true"
+        android:autoLink="none"
+        android:padding="8dp"/>
+</LinearLayout>
